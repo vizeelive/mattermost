@@ -8,7 +8,7 @@ ENV MM_VERSION=5.35.3
 ARG edition=enterprise
 ARG PUID=2000
 ARG PGID=2000
-ARG MM_BINARY=
+ARG MM_BINARY=https://vizee-mattermost.s3.amazonaws.com/mattermost-team-linux-amd64.tar.gz
 
 
 # Install some needed packages
